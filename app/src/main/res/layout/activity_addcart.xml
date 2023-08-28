@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg10"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/logshape" />
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="690dp"
+        android:background="@drawable/foodpanel2" />
+
+
+    <ImageView
+        android:id="@+id/inimg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#F309090B" />
+
+    <TextView
+        android:id="@+id/tit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="365dp"
+        android:text="title"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/det_prc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="430dp"
+        android:text="price"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/decrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="430dp"
+        android:clickable="true"
+        android:text="-"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/qt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="440dp"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/increase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="430dp"
+        android:clickable="true"
+        android:text="+"
+        android:textSize="40dp" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/shapebg">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Total:"
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/tot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:text="total"
+            android:textColor="@color/black"
+            android:textSize="26dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/now"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#009688"
+        android:text="Order now" />
+</RelativeLayout>
+

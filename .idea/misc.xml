@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.144" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.144" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/drawable/logshape.xml" value="0.1415" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/drawable/roundshp.xml" value="0.1415" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/drawable/shapebg.xml" value="0.144" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_addcart.xml" value="0.1" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_home.xml" value="0.15" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_main.xml" value="0.13846153846153847" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/layout/activity_register.xml" value="0.15" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/layout/imglst.xml" value="0.13986486486486485" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/layout/myimg.xml" value="0.13986486486486485" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/layout/myimgls.xml" value="0.13578595317725753" />
+        <entry key="..\:/Users/omshivay/AndroidStudioProjects/FoodApp/app/src/main/res/layout/register" value="0.215625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

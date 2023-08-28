@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg10">
+
+    <ImageView
+        android:id="@+id/bgshape"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/logshape" />
+
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shapebg"
+        android:drawableStart="@drawable/person"
+        android:drawablePadding="10dp"
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/lock"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shapebg"
+        android:drawableStart="@drawable/lock"
+        android:drawablePadding="10dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/notyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="540dp"
+        android:text="Not At ?"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/regs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="540dp"
+        android:clickable="true"
+        android:text="Register"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="540dp"
+        android:layout_below="@+id/bgshape"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/foodpanel2" />
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/foodi" />
+
+</RelativeLayout>
